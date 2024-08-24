@@ -6,11 +6,12 @@ body{
     font-family:" poppins",sans-serif;
 }
 container{
+    margin: 0auto;
     width: 1440 px;
     justify-content: space-between;
     align-items: center;
 }
-/* header area start */
+/* header area start */   
 .header-area-menu ul{
     display:flex ;
     justify-content: space-between;
@@ -19,30 +20,36 @@ container{
 }
 .header-area-menu ul li {
     list-style: none;
-    margin-right: 25px;
+    margin-right: 40px;
 }
-.header-area-menuul li{
+.header-area-menu ul li a{
     text-decoration: none;
 
+}
+.header .header-area-menu{
+    margin-top: 30px;
 }
 /*  Header Area End */
 
 /*  Banner Area Start */
 
 
-    .background-image{
-    background-image:url("image/logo/Rectangle 27@2x.png")
+ .background-image{
+    background-image:url("image/backround image/image11.png");
     height: 616px;
-    backround-repeat:no-repeat;
-    backround-size:cover;
-}
+    background-repeat:no-repeat ;
+    background-size:cover ;
+ }
 .background-text-area{
     text-align: center;
     width: 1440px;
-    height: 616px;
+    height: 550px;
     gap: 0px;
     font-size: 50px;
     color: bisque;
+    font-size: 48px;
+    line-height: 550px;
+    margin-left: 700px;
 
 }
 .background-text-area-btn button{
@@ -86,6 +93,11 @@ container{
 
 .about-the-principal-area {
     display: flex;
+    padding: 70px 0 50px 0;
+}
+.about-the-principal-area-img img{
+    width: 534px;
+    height: 662px;
 }
 .about-the-principal-area-text{
     margin-left: 30px;
@@ -136,14 +148,10 @@ text-align: center;
     margin-left: 40px;
     font-size: 20px;
 }
-.button1 
-{boarder: none
-    color:white;
-    padding: 13px 27px;
-    text-aling:center;
-    font-size:19px;
-    margin: 7px 3px;
-cursor:pointer;
+.button1 {
+    border: none
+    color :
+   
 }
 .button2
 {color: #000;
